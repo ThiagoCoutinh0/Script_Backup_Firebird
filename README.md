@@ -16,10 +16,13 @@ Instruções:
 2 - Em seguida, crie o arquivo de log para os backups. Para isso, abra o Web SSH e execute os comandos abaixo:
 
 touch /opt/firebird/logs/backup_firebird.log
+
 chmod 755 /root/backup_firebird.sh
 
 3 - Agora, configure o crontab do Firebird para agendar a rotina de backups. Execute o comando:
+
 crontab -e
 
 4 - No editor do crontab, insira a seguinte linha, substituindo USUARIO, SENHA e DIAS pelos valores adequados:
+
 0 1 * * * /root/backup_firebird.sh USUARIO SENHA DIAS
