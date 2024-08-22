@@ -26,3 +26,9 @@ crontab -e
 4 - No editor do crontab, insira a seguinte linha, substituindo USUARIO, SENHA e DIAS pelos valores adequados:
 
 0 1 * * * /root/backup_firebird.sh USUARIO SENHA DIAS
+
+![image](https://github.com/user-attachments/assets/bb861f51-295d-4186-aa7a-566b3dab4785)
+
+![image](https://github.com/user-attachments/assets/c5f7b381-90e9-430c-92d1-03e71ccdbbc0)
+
+
